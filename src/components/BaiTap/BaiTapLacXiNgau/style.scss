@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Pony";
+  src: url(./../../../assets/font/Pony.ttf);
+}
+
+.baiTap2 {
+  font-family: Pony;
+  background-image: url(./../../../assets/img/bgGame.png);
+  @apply h-screen rounded-3xl;
+  .xiNgau {
+    @apply mt-5;
+  }
+  .ketQua {
+    @apply mt-5 text-2xl;
+  }
+  .btnXiNgau {
+    @apply text-white p-5 text-xl border-2 border-green-600 rounded-md w-32 h-32 bg-purple-600;
+  }
+  .btnPlay {
+    @apply text-white bg-green-600 py-2 px-5 rounded-md mt-10;
+  }
+}
